@@ -7,7 +7,7 @@ Es un simple framework CSS que facilita la creación de componentes responsivos 
 
 ![4x3](http://placehold.it/160x120&text=4x3)
 
-Código HTML:
+Ejemplo HTML:
 ------------
 
 Sin Ratio CSS
