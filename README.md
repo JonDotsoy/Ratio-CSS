@@ -31,7 +31,42 @@ Con Ratio CSS
 
 ## Versiones
 
-### [v1.0](https://github.com/alfa30/Ratio-CSS/tree/v1.0)
+### [v1.2.0](https://github.com/alfa30/Ratio-CSS/tree/v1.2.0)
+
+Agregar relaciones de tipo libro: 
+
+- De bolsillo
+    - css: .ratio-1302by2032
+    - Dimensión: 13,02 x 20,32 cm
+- Comercial
+    - css: .ratio-1524by2286
+    - Dimensión: 15,24 x 22,86 cm
+- Cuadrado pequeño
+    - css: .ratio-1746by1683
+    - Dimensión: 17,46 x 16,83 cm
+- Vertical estándar
+    - css: .ratio-2000by2477
+    - Dimensión: 20,00 x 24,77 cm
+- Apaisado estándar
+    - css: .ratio-2410by2032
+    - Dimensión: 24,10 x 20,32 cm
+- Apaisado grande
+    - css: .ratio-3238by2762
+    - Dimensión: 32,38 x 27,62 cm
+- Cuadrado grande
+    - css: .ratio-3025by3048
+    - Dimensión: 30,25 x 30,48 cm
+- Revista
+    - css: .ratio-2794by2159
+    - Dimensión: 27,94 x 21,59 cm
+
+### [v1.1.0](https://github.com/alfa30/Ratio-CSS/tree/v1.1.0)
+
+Ingresar control javascript.
+
+Permite dimensionar la imagen sin perder la relación original, eliminando lo que no cabe dentro del componente. Para lo que ocupa la etiqueta `data-media="<proporción>"`.
+
+### [v1.0.0](https://github.com/alfa30/Ratio-CSS/tree/v1.0)
 
 Esta versión incluye las siguientes relaciones:
 
