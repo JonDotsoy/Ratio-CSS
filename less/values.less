@@ -5,11 +5,28 @@
 	overflow: hidden;
 	display: block;
 	width: 100%;
+	&.style {
+		background-color: #212121;
+	}
 	.@{name-ratio}-item {
 		position: absolute;
 		top: 0px;
 		left: 0px;
 		width: 100%;
-		height: 100%;
+		//height: 100%;
+		&.action {
+			height: 0px;
+			background-position: center center;
+			background-repeat: no-repeat;
+			&[data-model="width"] {
+				background-size: 100% auto;
+			}
+			&[data-model="height"] {
+				background-size: auto 100%;
+			}
+			&[data-model="equal"] {
+				background-size: 100% 100%;
+			}
+		}
 	}
 }
