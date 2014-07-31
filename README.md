@@ -36,37 +36,37 @@ Con Ratio CSS
 Esta versión incluye las siguientes relaciones:
 
 - 5x3
-    - css: 5x3 
+    - css: .ratio-5by3 
     - URL Example: <http://placehold.it/500x300&text=5x3>
 - 3x2
-    - css: 3x2 
+    - css: .ratio-3by2 
     - URL Example: <http://placehold.it/300x200&text=3x2>
 - 4x3
-    - css: 4x3 
+    - css: .ratio-4by3 
     - URL Example: <http://placehold.it/400x300&text=4x3>
 - 5x4
-    - css: 5x4 
+    - css: .ratio-5by4 
     - URL Example: <http://placehold.it/500x400&text=5x4>
 - 14x9
-    - css: 14x9 
+    - css: .ratio-14by9 
     - URL Example: <http://placehold.it/140x90&text=14x9>
 - 16x9
-    - css: 16x9 
+    - css: .ratio-16by9 
     - URL Example: <http://placehold.it/160x90&text=16x9>
 - 16x10
-    - css: 16x10 
+    - css: .ratio-16by10 
     - URL Example: <http://placehold.it/160x100&text=16x10>
 - 17x9
-    - css: 17x9 
+    - css: .ratio-17by9 
     - URL Example: <http://placehold.it/170x90&text=17x9>
 - 21x9
-    - css: 21x9 
+    - css: .ratio-21by9 
     - URL Example: <http://placehold.it/210x90&text=21x9>
 - 185x100
-    - css: 185x100 
+    - css: .ratio-185by100 
     - URL Example: <http://placehold.it/185x100&text=185x100>
 - 239x100
-    - css: 239x100 
+    - css: .ratio-239by100 
     - URL Example: <http://placehold.it/239x100&text=239x100>
 
 
