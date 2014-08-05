@@ -35,14 +35,14 @@ Con Ratio CSS
 
 Agrega tabla de relaciones 10x10
 
-- Relación 1  x 1
-- Relación 1  x 2
-- Relación 1  x 3
-- Relación 1  x 4
+- Relación 1  x 1  - css: .ratio-1by1
+- Relación 1  x 2  - css: .ratio-1by2
+- Relación 1  x 3  - css: .ratio-1by3
+- Relación 1  x 4  - css: .ratio-1by4
 - Relación ...
-- Relación 4  x 1
+- Relación 4  x 1  - css: .ratio-4by1
 - Relación ...
-- Relación 10 x 10
+- Relación 10 x 10 - css: .ratio-10by10
 
 ### [v1.2.0](https://github.com/alfa30/Ratio-CSS/tree/v1.2.0)
 
