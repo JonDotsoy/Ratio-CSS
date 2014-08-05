@@ -6,7 +6,8 @@
   width: 100%;
 }
 .ratio.style {
-  background-color: #212121;
+  background-color: #3C3C3C;
+  box-shadow: inset 0px 0px 9px #313131;
 }
 .ratio .ratio-item {
   position: absolute;

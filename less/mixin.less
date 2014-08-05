@@ -1,5 +1,14 @@
+
 .ratio (@x, @y) {
 	.@{name-ratio}.@{name-ratio}-@{x}by@{y} {
+		&, .@{name-ratio}-item.action {
+			padding-bottom: @y/@x*100%;
+		}
+	}
+}
+
+.ratio (@x, @y, @name) {
+	.@{name-ratio}.@{name-ratio}-@{name} {
 		&, .@{name-ratio}-item.action {
 			padding-bottom: @y/@x*100%;
 		}

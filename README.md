@@ -1,7 +1,7 @@
 Ratio CSS
 =========
 
-Es un simple framework CSS que facilita la creación de componentes responsivos con relacionada de aspectos. [wiki](http://es.wikipedia.org/wiki/Relaci%C3%B3n_de_aspecto)
+Es un simple framework CSS que facilita la creación de componentes responsivos con relación de aspectos. [wiki](http://es.wikipedia.org/wiki/Relaci%C3%B3n_de_aspecto)
 
 ![16x9](http://placehold.it/320x180&text=16x9)
 
@@ -14,7 +14,7 @@ Sin Ratio CSS
 
 ```
 <div>
-    <img src="http://placehold.it/620x280" data-model="width" alt="">
+    <img src="http://placehold.it/620x280" alt="">
 </div>
 ```
 
@@ -22,14 +22,38 @@ Con Ratio CSS
 
 ```
 <div class="ratio ratio-16by9">
-    <img src="http://placehold.it/620x280" alt="" class="ratio-item">
+    <img src="http://placehold.it/620x280" data-model="width" alt="" class="ratio-item">
 </div>
 ```
 ### Ejemplo en vivo
 
-<http://fiddle.jshell.net/44Qkd/4/show/light/>
+- [10x10](http://fiddle.jshell.net/2Tj5y/show/light/)
+- [Modelos de relación](http://fiddle.jshell.net/H536E/show/light/)
+- [Libros](http://fiddle.jshell.net/836se/show/light/)
+- [Vídeos](http://fiddle.jshell.net/vDu79/show/light/)
 
 ## Versiones
+
+### [v1.3.0](https://github.com/alfa30/Ratio-CSS/tree/v1.3.0)
+
+Integra nuevos ejemplos.
+
+Ingresa un parámetro `@name` a la función `.ratio`, permite nombrar clase de la relación.
+
+Less:
+
+```
+.ratio(12, 13, casa);
+```
+
+Salida:
+
+```
+.ratio.ratio-casa,
+.ratio.ratio-casa .ratio-item.action {
+  padding-bottom: 108.33333333%;
+}
+```
 
 ### [v1.2.1](https://github.com/alfa30/Ratio-CSS/tree/v1.2.1)
 
