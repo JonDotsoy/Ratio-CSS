@@ -1,0 +1,490 @@
+/** Ratio CSS | v1.2.1 | https://github.com/alfa30/Ratio-CSS **/
+.ratio {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
+.ratio.style {
+  background-color: #212121;
+}
+.ratio .ratio-item {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+.ratio .ratio-item.action {
+  height: 0px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.ratio .ratio-item.action[data-model="width"] {
+  background-size: 100% auto;
+}
+.ratio .ratio-item.action[data-model="height"] {
+  background-size: auto 100%;
+}
+.ratio .ratio-item.action[data-model="equal"] {
+  background-size: 100% 100%;
+}
+.ratio.ratio-1by1,
+.ratio.ratio-1by1 .ratio-item.action {
+  padding-bottom: 100%;
+}
+.ratio.ratio-1by2,
+.ratio.ratio-1by2 .ratio-item.action {
+  padding-bottom: 200%;
+}
+.ratio.ratio-1by3,
+.ratio.ratio-1by3 .ratio-item.action {
+  padding-bottom: 300%;
+}
+.ratio.ratio-1by4,
+.ratio.ratio-1by4 .ratio-item.action {
+  padding-bottom: 400%;
+}
+.ratio.ratio-1by5,
+.ratio.ratio-1by5 .ratio-item.action {
+  padding-bottom: 500%;
+}
+.ratio.ratio-1by6,
+.ratio.ratio-1by6 .ratio-item.action {
+  padding-bottom: 600%;
+}
+.ratio.ratio-1by7,
+.ratio.ratio-1by7 .ratio-item.action {
+  padding-bottom: 700%;
+}
+.ratio.ratio-1by8,
+.ratio.ratio-1by8 .ratio-item.action {
+  padding-bottom: 800%;
+}
+.ratio.ratio-1by9,
+.ratio.ratio-1by9 .ratio-item.action {
+  padding-bottom: 900%;
+}
+.ratio.ratio-1by10,
+.ratio.ratio-1by10 .ratio-item.action {
+  padding-bottom: 1000%;
+}
+.ratio.ratio-2by1,
+.ratio.ratio-2by1 .ratio-item.action {
+  padding-bottom: 50%;
+}
+.ratio.ratio-2by2,
+.ratio.ratio-2by2 .ratio-item.action {
+  padding-bottom: 100%;
+}
+.ratio.ratio-2by3,
+.ratio.ratio-2by3 .ratio-item.action {
+  padding-bottom: 150%;
+}
+.ratio.ratio-2by4,
+.ratio.ratio-2by4 .ratio-item.action {
+  padding-bottom: 200%;
+}
+.ratio.ratio-2by5,
+.ratio.ratio-2by5 .ratio-item.action {
+  padding-bottom: 250%;
+}
+.ratio.ratio-2by6,
+.ratio.ratio-2by6 .ratio-item.action {
+  padding-bottom: 300%;
+}
+.ratio.ratio-2by7,
+.ratio.ratio-2by7 .ratio-item.action {
+  padding-bottom: 350%;
+}
+.ratio.ratio-2by8,
+.ratio.ratio-2by8 .ratio-item.action {
+  padding-bottom: 400%;
+}
+.ratio.ratio-2by9,
+.ratio.ratio-2by9 .ratio-item.action {
+  padding-bottom: 450%;
+}
+.ratio.ratio-2by10,
+.ratio.ratio-2by10 .ratio-item.action {
+  padding-bottom: 500%;
+}
+.ratio.ratio-3by1,
+.ratio.ratio-3by1 .ratio-item.action {
+  padding-bottom: 33.33333333%;
+}
+.ratio.ratio-3by2,
+.ratio.ratio-3by2 .ratio-item.action {
+  padding-bottom: 66.66666667%;
+}
+.ratio.ratio-3by3,
+.ratio.ratio-3by3 .ratio-item.action {
+  padding-bottom: 100%;
+}
+.ratio.ratio-3by4,
+.ratio.ratio-3by4 .ratio-item.action {
+  padding-bottom: 133.33333333%;
+}
+.ratio.ratio-3by5,
+.ratio.ratio-3by5 .ratio-item.action {
+  padding-bottom: 166.66666667%;
+}
+.ratio.ratio-3by6,
+.ratio.ratio-3by6 .ratio-item.action {
+  padding-bottom: 200%;
+}
+.ratio.ratio-3by7,
+.ratio.ratio-3by7 .ratio-item.action {
+  padding-bottom: 233.33333333%;
+}
+.ratio.ratio-3by8,
+.ratio.ratio-3by8 .ratio-item.action {
+  padding-bottom: 266.66666667%;
+}
+.ratio.ratio-3by9,
+.ratio.ratio-3by9 .ratio-item.action {
+  padding-bottom: 300%;
+}
+.ratio.ratio-3by10,
+.ratio.ratio-3by10 .ratio-item.action {
+  padding-bottom: 333.33333333%;
+}
+.ratio.ratio-4by1,
+.ratio.ratio-4by1 .ratio-item.action {
+  padding-bottom: 25%;
+}
+.ratio.ratio-4by2,
+.ratio.ratio-4by2 .ratio-item.action {
+  padding-bottom: 50%;
+}
+.ratio.ratio-4by3,
+.ratio.ratio-4by3 .ratio-item.action {
+  padding-bottom: 75%;
+}
+.ratio.ratio-4by4,
+.ratio.ratio-4by4 .ratio-item.action {
+  padding-bottom: 100%;
+}
+.ratio.ratio-4by5,
+.ratio.ratio-4by5 .ratio-item.action {
+  padding-bottom: 125%;
+}
+.ratio.ratio-4by6,
+.ratio.ratio-4by6 .ratio-item.action {
+  padding-bottom: 150%;
+}
+.ratio.ratio-4by7,
+.ratio.ratio-4by7 .ratio-item.action {
+  padding-bottom: 175%;
+}
+.ratio.ratio-4by8,
+.ratio.ratio-4by8 .ratio-item.action {
+  padding-bottom: 200%;
+}
+.ratio.ratio-4by9,
+.ratio.ratio-4by9 .ratio-item.action {
+  padding-bottom: 225%;
+}
+.ratio.ratio-4by10,
+.ratio.ratio-4by10 .ratio-item.action {
+  padding-bottom: 250%;
+}
+.ratio.ratio-5by1,
+.ratio.ratio-5by1 .ratio-item.action {
+  padding-bottom: 20%;
+}
+.ratio.ratio-5by2,
+.ratio.ratio-5by2 .ratio-item.action {
+  padding-bottom: 40%;
+}
+.ratio.ratio-5by3,
+.ratio.ratio-5by3 .ratio-item.action {
+  padding-bottom: 60%;
+}
+.ratio.ratio-5by4,
+.ratio.ratio-5by4 .ratio-item.action {
+  padding-bottom: 80%;
+}
+.ratio.ratio-5by5,
+.ratio.ratio-5by5 .ratio-item.action {
+  padding-bottom: 100%;
+}
+.ratio.ratio-5by6,
+.ratio.ratio-5by6 .ratio-item.action {
+  padding-bottom: 120%;
+}
+.ratio.ratio-5by7,
+.ratio.ratio-5by7 .ratio-item.action {
+  padding-bottom: 140%;
+}
+.ratio.ratio-5by8,
+.ratio.ratio-5by8 .ratio-item.action {
+  padding-bottom: 160%;
+}
+.ratio.ratio-5by9,
+.ratio.ratio-5by9 .ratio-item.action {
+  padding-bottom: 180%;
+}
+.ratio.ratio-5by10,
+.ratio.ratio-5by10 .ratio-item.action {
+  padding-bottom: 200%;
+}
+.ratio.ratio-6by1,
+.ratio.ratio-6by1 .ratio-item.action {
+  padding-bottom: 16.66666667%;
+}
+.ratio.ratio-6by2,
+.ratio.ratio-6by2 .ratio-item.action {
+  padding-bottom: 33.33333333%;
+}
+.ratio.ratio-6by3,
+.ratio.ratio-6by3 .ratio-item.action {
+  padding-bottom: 50%;
+}
+.ratio.ratio-6by4,
+.ratio.ratio-6by4 .ratio-item.action {
+  padding-bottom: 66.66666667%;
+}
+.ratio.ratio-6by5,
+.ratio.ratio-6by5 .ratio-item.action {
+  padding-bottom: 83.33333333%;
+}
+.ratio.ratio-6by6,
+.ratio.ratio-6by6 .ratio-item.action {
+  padding-bottom: 100%;
+}
+.ratio.ratio-6by7,
+.ratio.ratio-6by7 .ratio-item.action {
+  padding-bottom: 116.66666667%;
+}
+.ratio.ratio-6by8,
+.ratio.ratio-6by8 .ratio-item.action {
+  padding-bottom: 133.33333333%;
+}
+.ratio.ratio-6by9,
+.ratio.ratio-6by9 .ratio-item.action {
+  padding-bottom: 150%;
+}
+.ratio.ratio-6by10,
+.ratio.ratio-6by10 .ratio-item.action {
+  padding-bottom: 166.66666667%;
+}
+.ratio.ratio-7by1,
+.ratio.ratio-7by1 .ratio-item.action {
+  padding-bottom: 14.28571429%;
+}
+.ratio.ratio-7by2,
+.ratio.ratio-7by2 .ratio-item.action {
+  padding-bottom: 28.57142857%;
+}
+.ratio.ratio-7by3,
+.ratio.ratio-7by3 .ratio-item.action {
+  padding-bottom: 42.85714286%;
+}
+.ratio.ratio-7by4,
+.ratio.ratio-7by4 .ratio-item.action {
+  padding-bottom: 57.14285714%;
+}
+.ratio.ratio-7by5,
+.ratio.ratio-7by5 .ratio-item.action {
+  padding-bottom: 71.42857143%;
+}
+.ratio.ratio-7by6,
+.ratio.ratio-7by6 .ratio-item.action {
+  padding-bottom: 85.71428571%;
+}
+.ratio.ratio-7by7,
+.ratio.ratio-7by7 .ratio-item.action {
+  padding-bottom: 100%;
+}
+.ratio.ratio-7by8,
+.ratio.ratio-7by8 .ratio-item.action {
+  padding-bottom: 114.28571429%;
+}
+.ratio.ratio-7by9,
+.ratio.ratio-7by9 .ratio-item.action {
+  padding-bottom: 128.57142857%;
+}
+.ratio.ratio-7by10,
+.ratio.ratio-7by10 .ratio-item.action {
+  padding-bottom: 142.85714286%;
+}
+.ratio.ratio-8by1,
+.ratio.ratio-8by1 .ratio-item.action {
+  padding-bottom: 12.5%;
+}
+.ratio.ratio-8by2,
+.ratio.ratio-8by2 .ratio-item.action {
+  padding-bottom: 25%;
+}
+.ratio.ratio-8by3,
+.ratio.ratio-8by3 .ratio-item.action {
+  padding-bottom: 37.5%;
+}
+.ratio.ratio-8by4,
+.ratio.ratio-8by4 .ratio-item.action {
+  padding-bottom: 50%;
+}
+.ratio.ratio-8by5,
+.ratio.ratio-8by5 .ratio-item.action {
+  padding-bottom: 62.5%;
+}
+.ratio.ratio-8by6,
+.ratio.ratio-8by6 .ratio-item.action {
+  padding-bottom: 75%;
+}
+.ratio.ratio-8by7,
+.ratio.ratio-8by7 .ratio-item.action {
+  padding-bottom: 87.5%;
+}
+.ratio.ratio-8by8,
+.ratio.ratio-8by8 .ratio-item.action {
+  padding-bottom: 100%;
+}
+.ratio.ratio-8by9,
+.ratio.ratio-8by9 .ratio-item.action {
+  padding-bottom: 112.5%;
+}
+.ratio.ratio-8by10,
+.ratio.ratio-8by10 .ratio-item.action {
+  padding-bottom: 125%;
+}
+.ratio.ratio-9by1,
+.ratio.ratio-9by1 .ratio-item.action {
+  padding-bottom: 11.11111111%;
+}
+.ratio.ratio-9by2,
+.ratio.ratio-9by2 .ratio-item.action {
+  padding-bottom: 22.22222222%;
+}
+.ratio.ratio-9by3,
+.ratio.ratio-9by3 .ratio-item.action {
+  padding-bottom: 33.33333333%;
+}
+.ratio.ratio-9by4,
+.ratio.ratio-9by4 .ratio-item.action {
+  padding-bottom: 44.44444444%;
+}
+.ratio.ratio-9by5,
+.ratio.ratio-9by5 .ratio-item.action {
+  padding-bottom: 55.55555556%;
+}
+.ratio.ratio-9by6,
+.ratio.ratio-9by6 .ratio-item.action {
+  padding-bottom: 66.66666667%;
+}
+.ratio.ratio-9by7,
+.ratio.ratio-9by7 .ratio-item.action {
+  padding-bottom: 77.77777778%;
+}
+.ratio.ratio-9by8,
+.ratio.ratio-9by8 .ratio-item.action {
+  padding-bottom: 88.88888889%;
+}
+.ratio.ratio-9by9,
+.ratio.ratio-9by9 .ratio-item.action {
+  padding-bottom: 100%;
+}
+.ratio.ratio-9by10,
+.ratio.ratio-9by10 .ratio-item.action {
+  padding-bottom: 111.11111111%;
+}
+.ratio.ratio-10by1,
+.ratio.ratio-10by1 .ratio-item.action {
+  padding-bottom: 10%;
+}
+.ratio.ratio-10by2,
+.ratio.ratio-10by2 .ratio-item.action {
+  padding-bottom: 20%;
+}
+.ratio.ratio-10by3,
+.ratio.ratio-10by3 .ratio-item.action {
+  padding-bottom: 30%;
+}
+.ratio.ratio-10by4,
+.ratio.ratio-10by4 .ratio-item.action {
+  padding-bottom: 40%;
+}
+.ratio.ratio-10by5,
+.ratio.ratio-10by5 .ratio-item.action {
+  padding-bottom: 50%;
+}
+.ratio.ratio-10by6,
+.ratio.ratio-10by6 .ratio-item.action {
+  padding-bottom: 60%;
+}
+.ratio.ratio-10by7,
+.ratio.ratio-10by7 .ratio-item.action {
+  padding-bottom: 70%;
+}
+.ratio.ratio-10by8,
+.ratio.ratio-10by8 .ratio-item.action {
+  padding-bottom: 80%;
+}
+.ratio.ratio-10by9,
+.ratio.ratio-10by9 .ratio-item.action {
+  padding-bottom: 90%;
+}
+.ratio.ratio-10by10,
+.ratio.ratio-10by10 .ratio-item.action {
+  padding-bottom: 100%;
+}
+.ratio.ratio-14by9,
+.ratio.ratio-14by9 .ratio-item.action {
+  padding-bottom: 64.28571429%;
+}
+.ratio.ratio-16by9,
+.ratio.ratio-16by9 .ratio-item.action {
+  padding-bottom: 56.25%;
+}
+.ratio.ratio-16by10,
+.ratio.ratio-16by10 .ratio-item.action {
+  padding-bottom: 62.5%;
+}
+.ratio.ratio-17by9,
+.ratio.ratio-17by9 .ratio-item.action {
+  padding-bottom: 52.94117647%;
+}
+.ratio.ratio-21by9,
+.ratio.ratio-21by9 .ratio-item.action {
+  padding-bottom: 42.85714286%;
+}
+.ratio.ratio-185by100,
+.ratio.ratio-185by100 .ratio-item.action {
+  padding-bottom: 54.05405405%;
+}
+.ratio.ratio-239by100,
+.ratio.ratio-239by100 .ratio-item.action {
+  padding-bottom: 41.84100418%;
+}
+.ratio.ratio-1302by2032,
+.ratio.ratio-1302by2032 .ratio-item.action {
+  padding-bottom: 156.06758833%;
+}
+.ratio.ratio-1524by2286,
+.ratio.ratio-1524by2286 .ratio-item.action {
+  padding-bottom: 150%;
+}
+.ratio.ratio-1746by1683,
+.ratio.ratio-1746by1683 .ratio-item.action {
+  padding-bottom: 96.39175258%;
+}
+.ratio.ratio-2000by2477,
+.ratio.ratio-2000by2477 .ratio-item.action {
+  padding-bottom: 123.85%;
+}
+.ratio.ratio-2410by2032,
+.ratio.ratio-2410by2032 .ratio-item.action {
+  padding-bottom: 84.3153527%;
+}
+.ratio.ratio-3238by2762,
+.ratio.ratio-3238by2762 .ratio-item.action {
+  padding-bottom: 85.29956763%;
+}
+.ratio.ratio-3025by3048,
+.ratio.ratio-3025by3048 .ratio-item.action {
+  padding-bottom: 100.76033058%;
+}
+.ratio.ratio-2794by2159,
+.ratio.ratio-2794by2159 .ratio-item.action {
+  padding-bottom: 77.27272727%;
+}
