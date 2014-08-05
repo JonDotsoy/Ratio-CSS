@@ -31,7 +31,7 @@
         <h1>
 <a name="ratio-css" class="anchor" href="#ratio-css"><span class="octicon octicon-link"></span></a>Ratio CSS</h1>
 
-<p>Es un simple framework CSS que facilita la creación de componentes responsivos con relacionada de aspectos. <a href="http://es.wikipedia.org/wiki/Relaci%C3%B3n_de_aspecto">wiki</a></p>
+<p>Es un simple framework CSS que facilita la creación de componentes responsivos con relación de aspectos. <a href="http://es.wikipedia.org/wiki/Relaci%C3%B3n_de_aspecto">wiki</a></p>
 
 <p><img src="http://placehold.it/320x180&amp;text=16x9" alt="16x9"></p>
 
@@ -50,19 +50,58 @@
 <p>Con Ratio CSS</p>
 
 <pre><code>&lt;div class="ratio ratio-16by9"&gt;
-    &lt;img src="http://placehold.it/620x280" alt="" class="ratio-item"&gt;
+    &lt;img src="http://placehold.it/620x280" data-model="width" alt="" class="ratio-item"&gt;
 &lt;/div&gt;
 </code></pre>
 
 <h3>
 <a name="ejemplo-en-vivo" class="anchor" href="#ejemplo-en-vivo"><span class="octicon octicon-link"></span></a>Ejemplo en vivo</h3>
 
-<p><a href="http://fiddle.jshell.net/44Qkd/4/show/light/">http://fiddle.jshell.net/44Qkd/4/show/light/</a></p>
-
-<h2>
+<ul>
+<li><a href="http://fiddle.jshell.net/2Tj5y/show/light/">10x10</a></li>
+<li><a href="http://fiddle.jshell.net/H536E/show/light/">Modelos de relación</a></li>
+<li><a href="http://fiddle.jshell.net/836se/show/light/">Libros</a></li>
+<li><a href="http://fiddle.jshell.net/vDu79/show/light/">Vídeos</a></li>
+</ul><h2>
 <a name="versiones" class="anchor" href="#versiones"><span class="octicon octicon-link"></span></a>Versiones</h2>
 
 <h3>
+<a name="v130" class="anchor" href="#v130"><span class="octicon octicon-link"></span></a><a href="https://github.com/alfa30/Ratio-CSS/tree/v1.3.0">v1.3.0</a>
+</h3>
+
+<p>Integra nuevos ejemplos.</p>
+
+<p>Ingresa un parámetro <code>@name</code> a la función <code>.ratio</code>, permite nombrar clase de la relación.</p>
+
+<p>Less:</p>
+
+<pre><code>.ratio(12, 13, casa);
+</code></pre>
+
+<p>Salida:</p>
+
+<pre><code>.ratio.ratio-casa,
+.ratio.ratio-casa .ratio-item.action {
+  padding-bottom: 108.33333333%;
+}
+</code></pre>
+
+<h3>
+<a name="v121" class="anchor" href="#v121"><span class="octicon octicon-link"></span></a><a href="https://github.com/alfa30/Ratio-CSS/tree/v1.2.1">v1.2.1</a>
+</h3>
+
+<p>Agrega tabla de relaciones 10x10</p>
+
+<ul>
+<li>Relación 1  x 1  - css: .ratio-1by1</li>
+<li>Relación 1  x 2  - css: .ratio-1by2</li>
+<li>Relación 1  x 3  - css: .ratio-1by3</li>
+<li>Relación 1  x 4  - css: .ratio-1by4</li>
+<li>Relación ...</li>
+<li>Relación 4  x 1  - css: .ratio-4by1</li>
+<li>Relación ...</li>
+<li>Relación 10 x 10 - css: .ratio-10by10</li>
+</ul><h3>
 <a name="v120" class="anchor" href="#v120"><span class="octicon octicon-link"></span></a><a href="https://github.com/alfa30/Ratio-CSS/tree/v1.2.0">v1.2.0</a>
 </h3>
 
