@@ -12,7 +12,7 @@ Ejemplo HTML:
 
 Sin Ratio CSS
 
-```
+```html
 <div>
     <img src="http://placehold.it/620x280" alt="">
 </div>
@@ -20,7 +20,7 @@ Sin Ratio CSS
 
 Con Ratio CSS
 
-```
+```html
 <div class="ratio ratio-16by9">
     <img src="http://placehold.it/620x280" data-model="width" alt="" class="ratio-item">
 </div>
@@ -42,13 +42,13 @@ Ingresa un parámetro `@name` a la función `.ratio`, permite nombrar clase de l
 
 Less:
 
-```
+```css
 .ratio(12, 13, casa);
 ```
 
 Salida:
 
-```
+```css
 .ratio.ratio-casa,
 .ratio.ratio-casa .ratio-item.action {
   padding-bottom: 108.33333333%;
