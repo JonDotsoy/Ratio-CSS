@@ -14,7 +14,7 @@ Sin Ratio CSS
 
 ```
 <div>
-    <img src="http://placehold.it/620x280" alt="">
+    <img src="http://placehold.it/620x280" data-model="width" alt="">
 </div>
 ```
 
@@ -30,6 +30,19 @@ Con Ratio CSS
 <http://fiddle.jshell.net/44Qkd/4/show/light/>
 
 ## Versiones
+
+### [v1.2.1](https://github.com/alfa30/Ratio-CSS/tree/v1.2.1)
+
+Agrega tabla de relaciones 10x10
+
+- Relación 1  x 1
+- Relación 1  x 2
+- Relación 1  x 3
+- Relación 1  x 4
+- Relación ...
+- Relación 4  x 1
+- Relación ...
+- Relación 10 x 10
 
 ### [v1.2.0](https://github.com/alfa30/Ratio-CSS/tree/v1.2.0)
 
