@@ -42,7 +42,7 @@ Ingresa un parámetro `@name` a la función `.ratio`, permite nombrar clase de l
 
 Less:
 
-```less
+```css
 .ratio(12, 13, casa);
 ```
 
