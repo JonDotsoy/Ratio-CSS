@@ -27,10 +27,11 @@ Con Ratio CSS
 ```
 ### Ejemplo en vivo
 
-- [10x10](http://fiddle.jshell.net/2Tj5y/show/light/)
-- [Modelos de relación](http://fiddle.jshell.net/H536E/show/light/)
-- [Libros](http://fiddle.jshell.net/836se/show/light/)
-- [Vídeos](http://fiddle.jshell.net/vDu79/show/light/)
+- [10x10](http://alfa30.github.io/Ratio-CSS/test/10x10)
+- [Modelos de relación](http://alfa30.github.io/Ratio-CSS/test/models)
+- [Libros](http://alfa30.github.io/Ratio-CSS/test/books)
+- [Vídeos](http://alfa30.github.io/Ratio-CSS/test/video)
+- [Ejemplo relación Libro](http://alfa30.github.io/Ratio-CSS/test/ViewOneBook)
 
 ## Versiones
 
