@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="../css/ratio.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<style>
+			* {
+				font-family: 'Open Sans', sans-serif;
+				color: #535353;
+				margin: 0px;
+				padding: 0px;
+			}
+			footer {
+				text-align: center;
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+			.box {
+				background-color: #FAFAFA;
+				padding: 10px;
+				box-shadow: 0px 1px 4px #DFDFDF;
+			}
+			.container {
+				margin: 0px auto;
+				width: 780px;
+			}
+			.container header {
+				margin-bottom: 10px;
+			}
+			.col {
+				float: left;
+				width: 22%;
+				margin: auto 1%;
+				margin-bottom: 10px;
+			}
+			@media (max-width: 800px) {
+				.container {
+					width: 95%;
+				}
+				.col {
+					float: left;
+					width: 47%;
+					margin: auto 1%;
+					margin-bottom: 10px;
+				}
+			}
+		</style>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="../js/ratio.min.js"></script>
+		<script src="http://masonry.desandro.com/masonry.pkgd.min.js"></script>
+		<title>Ejemplos de relaciones</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1>Ejemplos de relaciones - Videos</h1>
+			</header>
+			<section id="books" class="">
+				<div class="col">
+					<div class="box">
+						<header>
+							<h4>16:9 (HD ó NTCS)</h4>
+						</header>
+						<div class="ratio ratio-16by9 style">
+							<img src="http://lorempixel.com/200/500/technics/3" data-model="width" alt="" class="ratio-item">
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="box">
+						<header>
+							<h4>4:3 (PAL)</h4>
+						</header>
+						<div class="ratio ratio-4by3 style">
+							<img src="http://lorempixel.com/200/500/technics/3" data-model="width" alt="" class="ratio-item">
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="box">
+						<header>
+							<h4>3:2</h4>
+						</header>
+						<div class="ratio ratio-3by2 style">
+							<img src="http://lorempixel.com/200/500/technics/3" data-model="width" alt="" class="ratio-item">
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="box">
+						<header>
+							<h4>1.85:1</h4>
+						</header>
+						<div class="ratio ratio-185by100 style">
+							<img src="http://lorempixel.com/200/500/technics/3" data-model="width" alt="" class="ratio-item">
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="box">
+						<header>
+							<h4>2.39:1</h4>
+						</header>
+						<div class="ratio ratio-239by100 style">
+							<img src="http://lorempixel.com/200/500/technics/3" data-model="width" alt="" class="ratio-item">
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer>
+			Ratio CSS &hearts; <a href="https://github.com/alfa30/Ratio-CSS">GitHub</a> by <a href="http://jonad.in/">Jonathan Delgado Zamorano</a>
+		</footer>
+<script>
+	var container = document.querySelector('section');
+	var msnry = new Masonry( container, {
+		itemSelector: '.col'
+	});
+</script>
+	</body>
+</html>
