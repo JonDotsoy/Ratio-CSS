@@ -6,6 +6,7 @@ $(window).ready(function(){
 			var model = $(elem).data('model');
 			$(elem).addClass('action');
 			$(elem).css("background-image","url("+$(elem).attr("src")+")");
+			$(elem).trigger('endLoadMode');
 		});
 		$(elem).trigger('loadMode');
 	});
